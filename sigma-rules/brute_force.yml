@@ -1,0 +1,18 @@
+title: Multiple Failed Login Attempts
+
+id: 22222222-2222-2222-2222-222222222222
+
+logsource:
+  product: windows
+
+detection:
+  selection:
+    EventID: 4625
+
+condition: selection
+
+level: medium
+
+tags:
+  - attack.credential_access
+  - attack.t1110

@@ -1,0 +1,7 @@
+{
+    "name": "Encoded PowerShell",
+    "event_id": 4688,
+    "keyword": "-enc",
+    "severity": "HIGH",
+    "mitre": "T1059.001"
+}

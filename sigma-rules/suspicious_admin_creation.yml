@@ -1,0 +1,18 @@
+title: User Added To Administrators Group
+
+id: 33333333-3333-3333-3333-333333333333
+
+logsource:
+  product: windows
+
+detection:
+  selection:
+    EventID: 4732
+
+condition: selection
+
+level: high
+
+tags:
+  - attack.persistence
+  - attack.t1136
